@@ -3,27 +3,18 @@ from selenium import webdriver
 import os
 import sys
 
-iterationsize=int(input('iteration size: '))
-downloadpath=input('path to download: ')
-chromeOptions = webdriver.ChromeOptions()
-prefs = {"download.default_directory" : downloadpath}
-chromeOptions.add_experimental_option("prefs",prefs)
-driver = webdriver.Chrome("chromedriver.exe",chrome_options=chromeOptions)  # Optional argument, if not specified will search path.
-driver.get('https://markets.businessinsider.com/currencies/btc-usd');
-time.sleep(5) # Let the user actually see something!
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--disable-extensions')
+driver = webdriver.Chrome("chromedriver.exe",chrome_options=chrome_options)
 
-filesdownloaded=len(os.listdir(downloadpath))
-for x in links[0:(iterationsize)]:
-    driver.execute_script('window.location.replace("https://www.opensubtitles.org/en/subtitleserve/sub/{}")'.format(x))
-    time.sleep(3)
-    filesdownloadedcache=len(os.listdir(downloadpath))
-    print(x)
-    if filesdownloaded == filesdownloadedcache:
-        print('error file at: '+x)
-        input('')
-        driver.quit()
-        sys.exit()
-    filesdownloaded=filesdownloadedcache
+driver.get('https://www.coinbase.com/price/bitcoin')
+time.sleep(5) # Let the user actually see something!
+	
+element = driver.find_element_by_xpath("/html/body/div[2]/div/main/div/div/div[3]/div[1]/div/div[1]/div[1]/div[1]/div/div[1]/span").getAttribute("value")
+#cost = int(driver.find_element_by_class_name("currency-price-wrapper").getAttribute("currency-price"))
+print((element))
+#driver.execute_script('window.location.replace()')
+
 time.sleep(10) # Let the user actually see something!
 driver.quit()
 
