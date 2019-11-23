@@ -144,8 +144,8 @@ if __name__ == '__main__':
 
         question = response[0]
         crypto = parser.unparse(response, cryptos).strip()
-        print(question, crypto)
-        print("~"+crypto+"~")
+        #print(question, crypto)
+        #print("~"+crypto+"~")
         if cryptoDict.get(crypto) != None:
             if question == "price":
                 priceOf(crypto, cryptoDict.get(crypto))

@@ -34,6 +34,9 @@ about crypto0
 what is crypto0?
 about crypto0
 
+whats crypto0?
+price crypto0
+
 tell me about crypto0
 about crypto0
 
@@ -90,6 +93,10 @@ cryptointro
 
 what is crypto
 cryptointro
+
+whats crypto
+cryptointro
+
 // if user asks something generic, not about a specific crypto
 what is the all-time high of crypto0?
 high crypto0
@@ -126,11 +133,17 @@ marketcap crypto0
 
 what is the return from crypto0?
 stats crypto0
-
+# need adjustment
 what is the circulating supply of crypto0?
 stats crypto0
-
+# need adjustment
 what is the 24 hr volume ranking of crypto0?
+volume crypto0
+
+whats the 24 hr volume ranking of crypto0?
+volume crypto0
+
+whats the volume ranking of crypto0?
 volume crypto0
 
 volume crypto0
@@ -160,6 +173,9 @@ absolute crypto0
 abs crypto0
 absolute crypto0
 
+whats the percentage of crypto0?
+percent crypto0
+
 percentage of crypto0?
 percent crypto0
 
@@ -170,6 +186,15 @@ crypto0 %
 percent crypto0
 # not sure if this question will even come up
 what is the close for the day of crypto0
+close crypto0
+
+whats the close of crypto0
+close crypto0
+
+whats close of crypto0
+close crypto0
+
+whats the close of crypto0
 close crypto0
 
 close of crypto0
@@ -184,7 +209,19 @@ close crypto0
 close crypto0
 close crypto0
 
-what is the opens for the day of crypto0
+what is the open for the day of crypto0
+opens crypto0
+
+whats the open for the day of crypto0
+opens crypto0
+
+whats open of crypto0
+opens crypto0
+
+whats the open of crypto0
+opens crypto0
+
+whats the open for crypto0
 opens crypto0
 
 opens of crypto0
