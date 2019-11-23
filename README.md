@@ -1,7 +1,7 @@
 # CryptocurrencyChatBot
 
 ## Environment setup:
-Run the following code on your console:
+Change directory to CryptocurrencyChatBot/autodownload and run the following command on your console:
 ```bash
 pip install --user --requirement requirements.txt
 ```
