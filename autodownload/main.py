@@ -144,6 +144,7 @@ if __name__ == '__main__':
 
         question = response[0]
         crypto = parser.unparse(response, cryptos).strip()
+        # DEBUG:
         #print(question, crypto)
         #print("~"+crypto+"~")
         if cryptoDict.get(crypto) != None:
@@ -172,4 +173,4 @@ if __name__ == '__main__':
             else:
                 print("I cannot answer that right now")
         else:
-            print("That question is out of my breadth of knowledge.")
+            print("I'm not trained to answer that question.")
