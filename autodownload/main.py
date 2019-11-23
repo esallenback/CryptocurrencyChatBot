@@ -141,7 +141,8 @@ if __name__ == '__main__':
 
         if parser.unparse(response, cryptos) == "off-topic":
             print("off topic")
-
+        # DEBUG
+        # print(response)
         question = response[0]
         crypto = parser.unparse(response, cryptos).strip()
         # DEBUG:
