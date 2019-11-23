@@ -1,0 +1,200 @@
+crypto0 price
+price crypto0
+
+price crypto0
+price crypto0
+
+what is the price of crypto0?
+price crypto0
+
+whats price of crypto0?
+price crypto0
+
+price of crypto0
+price crypto0
+
+prices for crypto0
+price crypto0
+
+how much does crypto0 cost?
+price crypto0
+
+what is the current value of crypto0?
+price crypto0
+
+how much does crypto0 cost?
+price crypto0
+
+crypto0 about?
+about crypto0
+
+about crypto0?
+about crypto0
+
+what is crypto0?
+about crypto0
+
+tell me about crypto0
+about crypto0
+
+crypto0
+about crypto0
+
+give me information on crypto0
+about crypto0
+
+educate me on crypto0
+about crypto0
+
+can you introduce crypto0?
+about crypto0
+
+what is the background of crypto0?
+about crypto0
+
+crypto0 history
+about crypto0
+
+give me details on crypto0?
+about crypto0
+
+facts on crypto0
+about crypto0
+
+when was crypto0 established?
+about crypto0
+
+compare crypto0 and crypto1
+compare crypto0 crypto1
+
+what is the difference between crypto0 and crypto1?
+compare crypto0 crypto1
+
+how are crypto0 and crypto1 different?
+compare crypto0 crypto1
+
+is crypto0 better than crypto1?
+compare crypto0 crypto1
+
+is crypto0 worse than crypto1?
+compare crypto0 crypto1
+
+cryptocurrency intro?
+cryptointro
+
+introduce cryptocurrency?
+cryptointro
+
+what is cryptocurrency?
+cryptointro
+
+what is crypto
+cryptointro
+// if user asks something generic, not about a specific crypto
+what is the all-time high of crypto0?
+high crypto0
+
+whats the high of crypto0?
+high crypto0
+
+high crypto0?
+high crypto0
+
+what is the all-time low of crypto0?
+low crypto0
+
+whats the low of crypto0?
+low crypto0
+
+low crypto0?
+low crypto0
+
+whats the market cap of crypto0?
+marketcap crypto0
+
+whats the marketcap of crypto0?
+marketcap crypto0
+
+what is the market capitalization of crypto0?
+marketcap crypto0
+
+maketcap crypto0?
+marketcap crypto0
+
+market cap crypto0?
+marketcap crypto0
+
+what is the return from crypto0?
+stats crypto0
+
+what is the circulating supply of crypto0?
+stats crypto0
+
+what is the 24 hr volume ranking of crypto0?
+volume crypto0
+
+volume crypto0
+volume crypto0
+
+crypto0 volume
+volume crypto0
+
+vol crypto0?
+volume crypto0
+
+crypto0 vol?
+volume crypto0
+
+whats the volume of crypto0?
+volume crypto0
+
+whats the absolute for crypto0?
+absolute crypto0
+
+absolute of crypto0
+absolute crypto0
+
+absolute crypto0
+absolute crypto0
+
+abs crypto0
+absolute crypto0
+
+percentage of crypto0?
+percent crypto0
+
+percent of crypto0?
+percent crypto0
+
+crypto0 %
+percent crypto0
+# not sure if this question will even come up
+what is the close for the day of crypto0
+close crypto0
+
+close of crypto0
+close crypto0
+
+crypto0 closes
+close crypto0
+
+crypto0 close
+close crypto0
+
+close crypto0
+close crypto0
+
+what is the opens for the day of crypto0
+opens crypto0
+
+opens of crypto0
+opens crypto0
+
+crypto0 opens
+opens crypto0
+
+crypto0 opens
+opens crypto0
+
+opens crypto0
+opens crypto0
