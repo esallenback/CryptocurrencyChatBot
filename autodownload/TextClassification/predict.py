@@ -90,7 +90,7 @@ def predict(input):
 
     # FLAGS = tf.app.flags.FLAGS
     # input = FLAGS.input
-    run_dir = 'TextClassifier/model'
+    run_dir = 'TextClassification/model'
     checkpoint = 'clf-300'
 
     # Restore parameters
