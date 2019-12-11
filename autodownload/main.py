@@ -1,5 +1,6 @@
-import parser
-import cryptobot as cb
+# import parser
+import TextClassification.predict as predict
+# import cryptobot as cb
 import datetime
 import requests
 
@@ -134,17 +135,18 @@ if __name__ == '__main__':
         if query == "q":
             break;
 
-        parsed_query = parser.parse(query)[0]
-        cryptos = parser.parse(query)[1]
+        # parsed_query = parser.parse(query)[0]
+        # cryptos = parser.parse(query)[1]
 
-        response = cb.respond(parsed_query)
+        response = predict.predict(query)
+        # response = ['about', 'crypto0']
 
-        if parser.unparse(response, cryptos) == "off-topic":
-            print("off topic")
+        # if parser.unparse(response, cryptos) == "off-topic":
+        #     print("off topic")
         # DEBUG
         # print(response)
         question = response[0]
-        crypto = parser.unparse(response, cryptos).strip()
+        crypto = response[1]
         # DEBUG:
         #print(question, crypto)
         #print("~"+crypto+"~")
