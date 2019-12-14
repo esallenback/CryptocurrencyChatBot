@@ -1,2 +1,2 @@
-model_checkpoint_path: "clf-300"
-all_model_checkpoint_paths: "clf-300"
+model_checkpoint_path: "clf-900"
+all_model_checkpoint_paths: "clf-900"

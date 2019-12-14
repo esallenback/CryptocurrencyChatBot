@@ -91,7 +91,7 @@ def predict(input):
     # FLAGS = tf.app.flags.FLAGS
     # input = FLAGS.input
     run_dir = 'TextClassification/model'
-    checkpoint = 'clf-300'
+    checkpoint = 'clf-900'
 
     # Restore parameters
     with open(os.path.join(run_dir, 'params.pkl'), 'rb') as f:
@@ -135,13 +135,27 @@ def predict(input):
         raw_pred = sess.run([predictions, accuracy], feed_dict)[0][0]
 
         if (raw_pred == 0):
-            pred = 'cryptointro'
-        if (raw_pred == 1):
             pred = 'price'
-        if (raw_pred == 2):
+        if (raw_pred == 1):
             pred = 'about'
+        if (raw_pred == 2):
+            pred = 'cryptointro'
         if (raw_pred == 3):
             pred = 'high'
+        if (raw_pred == 4):
+            pred = 'low'
+        if (raw_pred == 5):
+            pred = 'marketcap'
+        if (raw_pred == 6):
+            pred = 'volume'
+        if (raw_pred == 7):
+            pred = 'absolute'
+        if (raw_pred == 8):
+            pred = 'percent'
+        if (raw_pred == 9):
+            pred = 'close'
+        if (raw_pred == 10):
+            pred = 'opens'
 
         ret = [pred, cryptoIdentifier(input)]
 
